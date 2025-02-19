@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preload" href="css/normalize.css">
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -15,28 +15,36 @@
     <header>
         <h1 class="title">
             Ariel Quispe Mamani <span>Developer</span>
-        </h1>
+        </h1> <!-- TITULO END-->
     </header>
+    <!--    NAVIGATION START    -->
     <div class="nav_bg">
         <nav class="nav_bg--navegacion nav_bg--content-center">
-            <a href="#">Start</a>
+            <a href="#">Home</a>
             <a href="#">About me</a>
             <a href="#">Clients</a>
             <a href="#">Contact</a>
         </nav>
     </div>
+    <!--    NAVIGATION END  -->
 
-    <section>
-        <h2>Design and Developer Web</h2>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
-            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
-            <path d="M12.02 21.485a1.996 1.996 0 0 1 -1.433 -.585l-4.244 -4.243a8 8 0 1 1 13.403 -3.651"></path>
-            <path d="M16 22l5 -5"></path>
-            <path d="M21 21.5v-4.5h-4.5"></path>
-          </svg>
-          <a href="#">Contactar</a>
+    <!--    FRONT PAGE  -->
+    <section class="portada">
+        <div class="portada__sombra">
+            <h2>Design and Developer Web</h2>
+
+            <div class="portada__logo">
+                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="96" height="96" stroke-width="2"> <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path> <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path> </svg> 
+                
+                <p>Argentina, buenos aires</p>
+            </div>
+
+              <a class="button" href="#">Contactar</a>
+        </div>
     </section>
-    <main>
+    <!--    FRONT PAGE  -->
+
+    <main class="nav_bg--content-center">
         <h2>My Services</h2>
         <section>
             <h3>Design Web</h3>
