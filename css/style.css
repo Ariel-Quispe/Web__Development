@@ -31,22 +31,40 @@ body{
 .nav_bg{
     background-color: var(--secundario);
 }
-.content-center{
-    width: 120rem;
+.nav_bg--content-center{
+    max-width: 120rem;
     margin: 0 auto;
 }
-.navegacion{
+.nav_bg--navegacion{
     display: flex;
     justify-content: space-between;
 }
-.navegacion a{
+.nav_bg--navegacion a{
     color: var(--blanco);
     text-decoration: none;
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
 }
-.navegacion a:hover{
+.nav_bg--navegacion a:hover{
     background-color: var(--primario);
     color: var(--oscuro);
+}
+/*
+    Estandar
+    CELU: 480px
+    Tablet: 768px
+    compus1: 1140px
+    compues2: 1400px
+*/
+
+@media (max-width: 480px){
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_bg--navegacion{
+       flex-direction: column;
+       text-align: center;
+    }
 }
