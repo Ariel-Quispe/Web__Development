@@ -1,0 +1,16 @@
+
+MAS SOBRE ESPECIFIDAD: https://codigoconjuan.com/que-es-y-como-funciona-la-especificidad-en-css/
+
+GOOGLE FONTS: https://fonts.google.com/
+
+NORMALIZE: https://necolas.github.io/normalize.css/
+
+RESPONSIVE: https://responsively.app/
+
+BOX SIZING: https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+SOPORT DE ETIQUETAS: https://caniuse.com/
+
+DISEÑO BOX SHADOW: https://www.cssmatic.com/box-shadow
+
+ALOJAR PAGINAS: https://www.netlify.com/
